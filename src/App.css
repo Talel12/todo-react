@@ -1,0 +1,71 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.sect{
+  height: 400px;
+  background-color: cornflowerblue;
+}
+.container{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+}
+.text{
+  width: 80%;
+padding: 12px 20px;
+margin: 8px 0;
+border: 1px solid ccc;
+border-radius: 8px;
+}
+#h1{
+color: white;
+font-size: 50px;
+}
+#h3{
+  color: white;
+}
+.button{
+  width: 90px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  color:white;
+  background-color: cornflowerblue;
+  border:1px solid white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+::placeholder{
+  font-size: 20px;
+  font-style: oblique;
+  font-family: 'Times New Roman', Times, serif;
+}
+.btncom{
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+  margin: 20px 0px 20px 40px;
+  border-radius: 5px;
+  border: 1px solid darkgray;
+}
+.todoText{
+  display: inline-block;
+  color: #444;
+  margin-left: 80px;
+  font-size: 30px;
+}
+.list-item{
+  min-height: 80px;
+  border-bottom: 1px solid darkgray;
+}
+.barre{
+text-decoration: line-through;
+}
+.cmp{
+  text-decoration: line-through;
+}
+.marg{
+  margin-top: 2vw;
+}
